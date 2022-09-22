@@ -71,5 +71,10 @@ Git will navigate through commits using Binary Search. For each step, run the te
 7. Once you've found the faulty commit, find what lines are responsible of the bugs and fix them. If you've fixed all the bugs, all Unit Tests should return OK when pytest is run
 
 ### Pull request
-8. Once the code is fixed, you can commit your work and open a Pull Request on GitHub so that the maintainer of the original repository can review your code and eventually merge it into its repo.
-9. Congratulations, you've contributed to your first Open Sources project
+### Merge feature branch into dev
+8. Now that the converter has no more bugs, we want to merge our branch feature into the dev branch.
+We will do a pull request (on your own repo). On GitHub, go to the "Pull requests tab" and click "New pull request".
+Select *base* and *compare*. Remember : we want to merge *decimal-binary-converter* into *dev*. 
+Then, *Create the pull request*. Add some description of the work you have done and publish the Pull Request.
+**Note** : We could have just merge *decimal-binary-converter* into *dev* from the command line. However, when working on a real project, you probably won't have the rights to do so. Remember : dev is a public branch. So all the work going down there should be carefully reviewed and tested.
+9. Go into the "Pull Request tab" and merge your branch into dev
