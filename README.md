@@ -51,7 +51,7 @@ pytest
 ```
 This will execute the tests you have written and show you a test report.
 
-5. On Github, on the original repository, open an issue about the bugs you found. Remember to be specific about the problem. You should also include code to reproduce the issue
+5. On Github, in your repository, open an issue about the bugs you found. Remember to be specific about the problem. You should also include code to reproduce the issue
 
 ### Find bugs
 6. Using *git bisect*, find which commit is faulty, introducing those bugs. Reminder : to use *git bisect*, ensure that the bug is present at the commit you're at. If so, type 
